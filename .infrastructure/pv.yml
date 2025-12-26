@@ -6,8 +6,8 @@ spec:
   capacity:
     storage: 1Gi
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   persistentVolumeReclaimPolicy: Delete
-  storageClassName: ""
+  storageClassName: "standard"
   hostPath:
     path: /app/data

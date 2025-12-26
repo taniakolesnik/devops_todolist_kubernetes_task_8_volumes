@@ -21,3 +21,10 @@ go to secrets folder (as you will start within /app folder already) and ensure S
 cd secrets
 ls -la
 cat SECRET_KEY
+
+
+go to configs folder (as you will start within /app folder already) and ensure PYTHONUNBUFFERED is there
+
+cd ../configs
+ls -la
+cat PYTHONUNBUFFERED

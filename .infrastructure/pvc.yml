@@ -6,8 +6,8 @@ metadata:
 spec:
   volumeName: pv-data
   accessModes:
-    - ReadWriteOnce
-  storageClassName: ""
+    - ReadWriteMany
+  storageClassName: "standard"
   resources:
     requests:
       storage: 1Gi
